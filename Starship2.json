@@ -1,0 +1,41 @@
+{
+	"Name": "Startship V2",
+	"Number of Stages": 2,
+	"Number of Booster": 0,
+	"Coefficent of Drag": 0.25,
+	"Cross Section Area": 65.33,
+	
+	"Pitch Rate" : 0.0523599,
+	
+	"Payload Mass": 50000,
+	"Deployment Time": 600,
+	
+	"Payload Fairing Mass": 0,
+	"Payload Fairing Seperation Height": 100000,
+	
+	"Escape Tower Mass": 0,
+	"Escape Tower Seperation Height": 100000,
+	
+	
+	"Stage 1": {
+		"Empty Mass": 210000,
+		"ISP": 330,
+		"Seperation Time": 122,
+		
+		"Number of Burns": 1,
+		"Burns Start Time" : [0, 1220],
+		"Burns Time": [122, 30],
+		"Burns Fuel Mass": [2920000, 730000]
+	},
+	
+	"Stage 2": {
+		"Empty Mass": 130000,
+		"ISP": 360,
+		"Seperation Time": 600,
+		
+		"Number of Burns": 1,
+		"Burns Start Time" : [122, 6000],
+		"Burns Time": [334.1, 30],
+		"Burns Fuel Mass": [1485000, 15000]
+	}
+}
